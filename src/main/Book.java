@@ -38,6 +38,7 @@ class Book {
 
     public String toString() {
         return "-----------------------------" + "\n" +
+                "Book Name:\t" + getBookName() + "\n" +
                 "Author Name:\t" + getAuthorName() + "\n" +
                 "ISBN:\t" + getIsbn() + "\n" +
                 "-----------------------------";
